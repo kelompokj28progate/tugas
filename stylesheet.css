@@ -40,7 +40,8 @@
 }
 
 .footer-list li {
-  padding-bottom: 10px;
+  padding-bottom:10px;
+  text-align: left;
 }
 
 .logo-j28 {
@@ -50,5 +51,4 @@
 .copyright-area {
   text-align: center;
   padding-top: 20px;
-  font-size:10px;
 }
