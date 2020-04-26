@@ -36,7 +36,7 @@
 
 .footer-list {
   float: right;
-  font-size:10px;
+  font-size:30px;
 }
 
 .footer-list li {
@@ -50,5 +50,5 @@
 .copyright-area {
   text-align: center;
   padding-top: 20px;
-  font-size:5px;
+  font-size:30px;
 }
