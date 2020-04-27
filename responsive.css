@@ -1,5 +1,61 @@
-@media screen and (max-width: 670px){
-    .burger{
+@media all and (max-width: 1000px) {
+  .isi-bio {
+    width: 50%;
+  }
+
+.judul-utama h1 {
+  font-size: 40px;
+}
+  .contact-form h3 {
+    font-size: 20px;
+  }
+.contact-form p {
+  font-size:18px;
+  }
+  .biodata{
+position:relative;
+    height:1000px;
+    width:100%;
+    z-index:-99;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .judul-utama h1 {
+    font-size: 35px;
+  }
+
+  .isi-bio {
+    width: 100%;
+  }
+.biodata{
+  position:relative;
+      height:1800px;
+      width:100%;
+      z-index:-99;
+      text-align:center;
+    }
+.bagian-utama h3 {
+  font-size: 25px;
+}
+  .foto-bio p {
+    position:static;
+    text-align: center;
+  }
+  .keterangan {
+    margin-top:5px;
+  }
+  .footer-logo {
+    display:none;
+  }
+  .logo-j28 {
+    display:none;
+  }
+  .footer-list {
+    display:none;
+  }
+  .burger{
         display: inline-block;
     }
     ul{
@@ -12,33 +68,4 @@
         margin: 10px;
     }
 }
-
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .isi-bio {
-    width: 50%;
-  }
-
-  .contact-form h3 {
-    font-size: 10px;
-  }
-
-  .contact-form p {
-    font-size: 8px;
-  }
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .isi-bio {
-    width: 100%;
-  }
-  
-  .contact-form h3 {
-    font-size: 10px;
-  }
-
-  .contact-form p {
-    font-size: 8px;
-  }
 }
