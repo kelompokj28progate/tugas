@@ -25,6 +25,12 @@ position:relative;
   .judul-utama h1 {
     font-size: 35px;
   }
+    .highlight{
+    display: none;
+    }
+   .burger{
+    display: block;
+    }
 
   .isi-bio {
     width: 100%;
