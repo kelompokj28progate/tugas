@@ -1,0 +1,44 @@
+@media screen and (max-width: 670px){
+    .burger{
+        display: inline-block;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    ul li{
+        margin: 10px;
+    }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .isi-bio {
+    width: 50%;
+  }
+
+  .contact-form h3 {
+    font-size: 10px;
+  }
+
+  .contact-form p {
+    font-size: 8px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .isi-bio {
+    width: 100%;
+  }
+  
+  .contact-form h3 {
+    font-size: 10px;
+  }
+
+  .contact-form p {
+    font-size: 8px;
+  }
+}
